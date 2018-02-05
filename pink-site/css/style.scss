@@ -1,0 +1,230 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.header {
+    background: url('../img/header.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    min-height: 600px;
+}
+.wrapper {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.11);
+    background-color: #ffffff;
+    opacity: 0.9;
+    width: 100%;
+    
+}
+.logo {
+    &__img {
+        display: block;
+        width: 130px;
+        height: 52px;
+        margin: 20px 0;
+    }
+}
+.navigation {
+    list-style-type: none;
+    display: flex;
+    padding-top: 10px;
+    &__item {
+        padding-left: 49px;
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+    &__link {
+        color: #454545;
+        opacity: 0.75;
+        font-size: 17px;
+        &:hover {
+            text-decoration: none;
+            color: pink;
+        }
+    }
+}
+
+.btn-login {
+    background-color: #de6d6e;
+    border-radius: 5px;
+    
+    width: 85px;
+    width: 77px;
+    padding: 2px 7px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+        width: 13px;
+        height: 14px;
+    }
+}
+.layers {
+    margin-top: 115px;
+    margin-bottom: 55px;
+}
+.main-title {
+    text-align: center;
+    &__header {
+        text-shadow: 0 0 13px rgba(0, 0, 0, 0.22);
+        color: #ffffff;
+        font-family: "Alte Haas Grotesk";
+        font-size: 69px;        
+        text-transform: uppercase;
+        }
+    &__text {
+        text-shadow: 0 0 13px rgba(0, 0, 0, 0.22);
+        color: #ffffff;        
+        font-size: 25px;
+        font-weight: 300;
+    }
+}
+
+//main 
+.main {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.11);
+}
+.description {
+    text-align: center;
+    padding: 70px 100px;
+    &__title {
+        color: #404040;        
+        font-size: 35px;
+        font-weight: 300;
+    }
+    &__text {
+        color: #636363;        
+        font-size: 17px;
+        font-weight: 300;
+    }
+}
+.products {
+    position: relative;
+    width: 179px;
+    height: 179px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 50px;
+    &__descr {
+        font-size: 17px;
+        transition: all 1s;
+    }
+    &__img {
+        font-size: 80px;
+        transition: all 1s;
+    }
+    &__text {
+        display: none;
+        font-size: 12px;
+        width: 126px;
+        text-align: center;
+    }
+    &:hover &__img, &:hover &__descr {
+        opacity: 0.26;
+    }
+    &:hover &__text {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+}
+.tiket {
+    background-color: #4eb9f4;
+}
+.camera {
+    background-color: #6fc125;
+}
+.beer {
+    background-color: #ff5649;
+}
+.tablet {
+    background-color: #e48f23;
+}
+
+//content
+
+.content {
+    &__item {
+        display: flex;
+        padding: 45px 12px 40px 65px;
+    }
+    &__img {
+        width: 199px;
+        height: 132px;
+        display: block;
+    }
+    &__info {
+        padding-left: 25px;
+    }
+    &__title {
+        color: #404040;    
+        font-size: 27px;
+        font-weight: 300;
+    }
+    &__text {
+        color: #8b8b8b;        
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+}
+//footer
+.footer {
+    background: url('../img/footer.jpg') center no-repeat;
+    background-size: cover;
+    height: 258px;
+}
+.sub-menu {
+    padding-top: 37px;
+    &__title {
+        color: #aeaeae;        
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+    &__nav {
+        list-style-type: none;
+    }
+    &__link {
+        color: #8b8b8b;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+}
+.social {
+    &__items {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        width: 52px;
+        height: 52px;
+        background-color: #696b6a;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        color: #252825;
+        margin: 58px 0 30px;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+.copyright {
+    color: #8b8b8b;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+}
