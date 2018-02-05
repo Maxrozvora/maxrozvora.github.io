@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.header {
+  background: url("../img/header.jpg") center no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 44px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.navigation__item {
+  padding-left: 42px;
+}
+
+.navigation__link {
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.heading {
+  padding: 200px 0 160px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.heading__welcome {
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.heading__title {
+  font-size: 75px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -1.88px;
+  margin: 50px 0 60px;
+}
+
+.btn {
+  width: 240px;
+  height: 65px;
+  background-color: #fed136;
+  color: #484543;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.btn:hover {
+  background-color: #fec503;
+}
+
+.title {
+  padding: 120px 0 80px;
+  text-align: center;
+}
+
+.title__name {
+  color: #222222;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.title__descr {
+  color: #777777;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.services {
+  width: 249px;
+  text-align: center;
+  padding-bottom: 120px;
+  margin: 0 auto;
+}
+
+.services__img {
+  width: 74px;
+  height: 73px;
+}
+
+.services__title {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 25px 0 15px;
+  letter-spacing: -0.45px;
+}
+
+.services__text {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+}
+
+.portfolio {
+  background-color: #f7f7f7;
+}
+
+.image {
+  margin-bottom: 130px;
+}
+
+.image__work {
+  width: 100%;
+  height: 100%;
+}
+
+.date-info {
+  display: flex;
+  padding-bottom: 90px;
+  width: 500px;
+}
+
+.date-info__text {
+  text-align: end;
+  padding: 0 40px;
+}
+
+.date-info__date, .date-info__stage {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  letter-spacing: -0.45px;
+  text-transform: uppercase;
+}
+
+.date-info__descr {
+  color: #777777;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+}
+
+.pos-end {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.pos-end .date-info__text {
+  text-align: start;
+}
+/*# sourceMappingURL=style.css.map */
