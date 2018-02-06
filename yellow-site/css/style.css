@@ -1,0 +1,178 @@
+.title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title-main {
+  font-size: 3.2em;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+
+.title-text {
+  font-size: 2em;
+  color: #313841;
+  width: 740px;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 10px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  background-color: #fcdb00;
+  height: 743px;
+  padding-top: 6em;
+}
+
+.center-line {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  padding-left: 10px;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item-link {
+  font-size: 2.2em;
+  font-weight: 700;
+}
+
+.offer-title {
+  font-size: 3.2em;
+  font-weight: 700;
+  line-height: 18px;
+  margin-bottom: 20px;
+  margin-top: 130px;
+}
+
+.offer-into {
+  font-size: 2em;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+
+.offer-text {
+  font-size: 1.6em;
+  color: #555555;
+  line-height: 20px;
+  width: 400px;
+}
+
+.offer .icons {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.offer .icons-item {
+  font-size: 4.1em;
+  margin-right: 38px;
+  padding-top: 42px;
+}
+
+.ipad {
+  display: block;
+  margin: 60px auto;
+}
+
+.title {
+  padding-top: 10em;
+  padding-bottom: 7em;
+}
+
+.feature {
+  display: flex;
+  padding-bottom: 6.5em;
+}
+
+.feature-icon {
+  font-size: 5em;
+  padding-right: 30px;
+}
+
+.feature-title {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+
+.feature-text {
+  font-size: 1.6em;
+  color: #898989;
+  line-height: 25px;
+  width: 210px;
+}
+
+.touch {
+  background-color: #010101;
+}
+
+.touch .yellow {
+  color: #fcdb00;
+}
+
+.touch .white {
+  color: #898989;
+}
+
+.form {
+  text-align: center;
+}
+
+.form-input {
+  font-size: 1.6em;
+  color: #898989;
+  padding: 18px 25px;
+  width: 580px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.form-btn {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 126px;
+  padding: 14px 0;
+  background-color: #fcdb00;
+  border: 2px solid #010101;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.footer {
+  background-color: #010101;
+}
+
+.contacts {
+  width: 183px;
+  color: #ffffff;
+  padding-top: 5em;
+  padding-bottom: 10em;
+  margin: 0 auto;
+}
+
+.contacts-info {
+  font-size: 1.6em;
+}
+
+.contacts-info span {
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
