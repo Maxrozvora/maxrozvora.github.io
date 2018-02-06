@@ -1,0 +1,287 @@
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #14141d;
+}
+
+p {
+  line-height: 1.8em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+}
+
+.navigation {
+  padding: 30px 0;
+}
+
+.navigation .logo {
+  width: 100%;
+  height: 100%;
+}
+
+.navigation-item {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 27px;
+}
+
+.navigation-item:last-child {
+  padding-right: 0;
+}
+
+.navigation-item-link {
+  color: #2c465a;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navigation-item-link:hover {
+  text-decoration: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 47px;
+  width: 199px;
+  color: #ffffff;
+  background-color: #fea100;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #e59100;
+}
+
+.btn-read {
+  width: 149px;
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.offer {
+  background: url("../img/offer.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 570px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.title-heading {
+  font-size: 56px;
+  color: #ffffff;
+}
+
+.title-descr {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.title-descr span {
+  color: #fea100;
+}
+
+.call {
+  background-color: #edf1f3;
+}
+
+.telephone {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid  #dde3e7;
+}
+
+.telephone-text {
+  background: url("../img/phone-png.png") no-repeat, left, center;
+  color: #14141d;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 5px 0 5px 56px;
+}
+
+.telephone-text .yellow {
+  color: #fea100;
+  font-size: 16px;
+}
+
+.telephone-number {
+  font-size: 32px;
+  font-weight: 700;
+  color: #14141d;
+  font-family: "Playfair Display";
+  margin-top: -9px;
+  margin-left: 46px;
+}
+
+.history {
+  padding: 120px 0;
+}
+
+.history-title {
+  font-size: 35px;
+  color: #14141d;
+  margin-bottom: 25px;
+}
+
+.history-text {
+  color: #5c6369;
+}
+
+.food-img img {
+  margin-bottom: 10px;
+}
+
+.down {
+  margin-top: 116px;
+}
+
+.up {
+  margin-top: 66px;
+}
+
+.special {
+  background: url("../img/special.jpg") no-repeat center top;
+  padding-top: 100px;
+}
+
+.special-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 35px;
+  margin-bottom: 26px;
+}
+
+.food {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 128px;
+  box-shadow: 0 24px 38px rgba(0, 0, 0, 0.09);
+}
+
+.food-img {
+  margin-bottom: 50px;
+}
+
+.food h3 {
+  font-size: 26px;
+  padding-bottom: 26px;
+}
+
+.food-descr {
+  color: #5c6369;
+  padding: 0 50px;
+}
+
+.food-footer {
+  border-top: 1px solid #e1e1e1;
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0 34px;
+  margin-top: 60px;
+}
+
+.food-footer-deatail {
+  text-transform: uppercase;
+  width: 78px;
+  font-size: 13px;
+  border-right: 1px solid #e1e1e1;
+  margin-right: 18px;
+  font-weight: 700;
+}
+
+.food-footer-deatail span {
+  color: #fe4c8d;
+}
+
+.food-footer-tel {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: "Playfair Display";
+  color: #14141d;
+}
+
+.food-footer-price {
+  font-size: 30px;
+  color: #fea100;
+  font-weight: 700;
+  font-family: "Playfair Display";
+}
+
+.food-footer-price small {
+  font-size: 14px;
+}
+
+footer {
+  background-color: #373844;
+}
+
+.socials {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.socials-item {
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-item-link {
+  color: #ffffff;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  line-height: 52px;
+}
+
+.socials-item .darkb {
+  background-color: #3b5998;
+}
+
+.socials-item .blue {
+  background-color: #55acee;
+}
+
+.socials-item .red {
+  background-color: #dd4b39;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 120px;
+  color: #adb2b7;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
