@@ -2390,7 +2390,8 @@ strong {
     position: absolute;
     top: 55px;
     right: -10px;
-    z-index: 99; }
+    z-index: 99;
+    display: none; }
     .contact .tooltip__kyivstar {
       margin: 20px 0; }
     .contact .tooltip__img {
@@ -2537,7 +2538,8 @@ strong {
   text-align: center;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  display: none; }
   .navbar-colapse__link {
     font-size: 14px;
     font-weight: bold;
